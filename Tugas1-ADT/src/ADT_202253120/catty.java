@@ -5,14 +5,14 @@ public class catty {
     int jumlahMakan;
     int jumlahAnak;
     String Warna;
-    String RasKucing;
+    String Ras_Kucing;
 
-    public catty(String Nama, int jumlahMakan, int jumlahAnak, String Warna, String RasKucing) {
+    public catty(String Nama, int jumlahMakan, int jumlahAnak, String Warna, String Ras_Kucing) {
         this.Nama = Nama;
         this.jumlahMakan = jumlahMakan;
         this.jumlahAnak = jumlahAnak;
         this.Warna = Warna;
-        this.RasKucing = RasKucing;
+        this.Ras_Kucing = Ras_Kucing;
 
     }
 
@@ -49,16 +49,16 @@ public class catty {
     }
 
     public String getRasKucing() {
-        return RasKucing;
+        return Ras_Kucing;
     }
 
-    public void setRasKucing(String RasKucing) {
-        this.RasKucing = RasKucing;
+    public void setRasKucing(String Ras_Kucing) {
+        this.Ras_Kucing = Ras_Kucing;
     }
 
     public void print() {
         System.out.println("My Cat's name is " + Nama);
-        System.out.println("it is " + RasKucing + " with a " + Warna + " color");
+        System.out.println("it is " + Ras_Kucing + " with a " + Warna + " color");
         System.out.println("I give it some food for " + jumlahMakan + " times a day");
         System.out.println("And it has " + jumlahAnak + " little cute kitty now.\n");
     }
