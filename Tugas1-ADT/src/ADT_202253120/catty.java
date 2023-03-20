@@ -60,7 +60,7 @@ public class catty {
         System.out.println("My Cat's name is " + Nama);
         System.out.println("it is " + RasKucing + " with a " + Warna + " color");
         System.out.println("I give it some food for " + jumlahMakan + " times a day");
-        System.out.println("And it has " + jumlahAnak + " little cute kitty now.");
+        System.out.println("And it has " + jumlahAnak + " little cute kitty now.\n");
     }
 
     public static void main(String[] args) {
